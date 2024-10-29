@@ -1,4 +1,11 @@
 function y = dec_directx2_hb_fs4_mix(x,h)
+%----------------------------------------------------
+% Mixes and  decimates input signal x2 w/ efficient DDC
+% x: input signal (real-valued) samples (1xL)
+% h: halfband filter coeff vector (1XN)
+%
+% Author:  J. Shima
+%----------------------------------------------------
 
 %dec by 2, HB filter coeffs sent in
 
